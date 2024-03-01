@@ -1,0 +1,343 @@
+.home-cont {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.home-cont .left-jobs {
+  width: 40%;
+  height: 100%;
+}
+.home-cont .content-jobs {
+  background-color: #fff;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  position: relative;
+  animation: content-jobs 1s linear;
+}
+
+@keyframes content-jobs {
+    0% {
+      transform: translateY(-500%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  
+}
+.btn {
+  font-size: 17px;
+  padding: 0.4em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.btn:active {
+  transform: translate(0em, 0.2em);
+}
+.home-cont .content-jobs .btn{
+    position: absolute;
+    bottom: -1rem;
+    left: 1rem;
+}
+.home-cont .content-jobs h1 {
+  font-size: 1.5rem;
+}
+
+.home-cont .content-jobs p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+.home-cont .right-me {
+  width: 60%;
+  height: 100%;
+}
+.img-me{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    height: 10rem;
+    animation: rightname linear 1s;
+}
+.img-me .me .img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.img-me .me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes rightname {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.img-me .me .all-name{
+    margin-left: 1rem;
+}
+
+.img-me  .btn-profile {
+   background-color: #fff;
+   border: 1px solid #b8bed6;
+   border-radius: .2rem;
+   color: black;
+   font-size: 1.4rem;
+   padding: 0.2rem 2rem;
+   font-weight: 400;
+   transition: 0.4s;
+}
+.img-me .btn-profile:hover {
+   background-color: #eeeef6;
+   letter-spacing: 2px;
+}
+.right-me .skills{
+    width: 90%;
+    height: 70%;
+    background-color: #fff;
+    margin-top: 2rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.right-me .skills h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.right-me .skills .Plotly-js{
+    width: 90%;
+    height: calc(100% - 1.9rem);
+}
+
+.icon-avter{
+    width: 70px;
+    margin-left: 1.5rem;
+    margin-right: 1.4rem;
+}
+.html{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-html{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-html{
+    width: 90%;
+    background-color: #f65b3d;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+
+
+.presnt{
+    margin-left: 2rem;
+}
+.skills hr{
+    margin: 1rem 2rem;
+    width: 90%;
+    position: relative;
+    right: -2rem;
+   
+}
+
+.css{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-css{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-css{
+    width: 75%;
+    background-color: #264de6;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+.css-img{
+    width: 50px;
+}
+.javascript{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-javascript{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-javascript{
+    width: 85%;
+    background-color: #f0db4f;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+.javascript-img{
+    width: 55px;
+}
+
+.tcss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-tcss{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-tcss{
+    width: 65%;
+    background-color: #06b6d4;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+.tcss-img{
+    width: 55px;
+    background-color: #fff;
+}
+
+
+.react{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-react{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-react{
+    width: 70%;
+    background-color: #00bcd4;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+.react-img{
+    width: 55px;
+    background-color: #fff;
+}
+
+
+
+
+.express{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plot-all-express{
+    width: 90%;
+    background-color: #eeeef6;
+    height: 3rem;
+    border-radius: 5rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    
+}
+.plot-part-express{
+    width: 79%;
+    background-color: #333333;
+    height: 3rem;
+    border-radius: 5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    animation: presant linear 2s;
+}
+.express-img{
+    width: 55px;
+    background-color: #fff;
+}
+
+@keyframes presant {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
