@@ -33,7 +33,7 @@
 }
 .btn {
   font-size: 17px;
-  padding: 0.4em 2em;
+  padding: 0.4rem 2rem;
   border: transparent;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   background: dodgerblue;
@@ -332,7 +332,6 @@
     width: 55px;
     background-color: #fff;
 }
-
 @keyframes presant {
     0% {
       transform: translateX(-200%);
@@ -341,3 +340,4 @@
       transform: translateX(0);
     }
 }
+

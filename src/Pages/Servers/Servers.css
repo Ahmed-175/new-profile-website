@@ -1,0 +1,58 @@
+.servers{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.all-cp{
+    width: 40%;
+    height:fit-content;
+    margin:2rem auto 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4); 
+    position: relative;
+    padding-top: 3rem;
+}
+.all-cp h2 {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    padding: 0.5rem 4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.note{
+    padding: 0.5rem 4rem;
+    width: 90%;
+    background-color: #eeeef6;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    margin: 2rem auto;
+}
+
+
+@media (max-width:1000px) {
+    .servers{
+        display: block;
+        overflow-y: auto;
+
+    }
+    .all-cp{
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+    .backend-serv{
+        margin-bottom: 10rem;
+
+    }
+    
+}
+

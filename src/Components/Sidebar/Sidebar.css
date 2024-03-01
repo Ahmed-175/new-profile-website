@@ -32,12 +32,82 @@
     color: #f7faff;
     margin-left: 2rem;
 }
-
 .Content-sidebar span{
     font-size:0.9rem ;
     font-weight: 700;
     color:#f7faff ;
     margin-left: 1rem;
 }
+.menu{
+    display: none;
+    transition: 0.4s;
+}
 
 
+@media (max-width:1000px) {
+    html{
+        font-size: 70.5%;
+    }
+    body .sidebar{
+        position: absolute;
+        top: 0;
+        left: -55%;
+        z-index: 100;
+        width: 50%;
+        transition: .5s;
+    }
+
+    body .container-all{
+        width: 100%;
+        height: 100vh;
+        position: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        
+    }
+
+    body .home-cont{
+        display: block;
+        width: 100%;
+    }
+
+    body .home-cont .left-jobs{
+        width: 100%;
+        margin-bottom:2rem ;
+        height: auto;
+    }
+    body .home-cont .left-jobs .btn{
+        padding: 0.3rem 1.7rem;
+
+    }
+    body .home-cont .right-me{
+        width: 100%;
+        text-align: center;
+        margin: 0 2rem;
+    }
+    body .home-cont .right-me .skills  {
+       height: auto;
+       margin-bottom: 2rem;
+    }
+    body #header{
+        height: 7rem;
+    }
+    body #header nav{
+        display: none;
+    }
+    body #header .menu{
+        display: block;
+        font-size: 1rem;
+    }
+    body #header .menu svg{
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+
+    body .img-me  .btn-profile{
+        padding: 0.3rem 1.7rem;
+        font-size: 1rem;
+    }
+     
+}

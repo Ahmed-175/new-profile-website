@@ -17,7 +17,7 @@ const Home = () => {
             <div className="content-jobs">
               <h1>UI/UX مصمم</h1>
               <p>و هو مجرد شكل مبدئي و تخيل كل جوانب الموقع</p>
-              <a href="/server" className="btn">
+              <a href="/servers" className="btn">
                 تفاصيل اكثر
               </a>
             </div>
@@ -25,21 +25,21 @@ const Home = () => {
             <div className="content-jobs">
               <h1> مبرمج الواجهة الأمامية</h1>
               <p>و هو الذي يقوم بتحويل الصورة من مجرد تصميم الي كود فعلي </p>
-              <a href="/server" className="btn">
+              <a href="/servers" className="btn">
                 تفاصيل أكثر
               </a>
             </div>
             <div className="content-jobs">
               <h1>مبرمج الواجهة الخلفية </h1>
               <p>هو الشخص الذي يهتم بالخوادة و المعلومات التي يحتاجها مبرمج الواجهة الامامية</p>
-              <a href="/server" className="btn">
+              <a href="/servers" className="btn">
                 تفاصيل اكثر
               </a>
             </div>
             <div className="content-jobs">
               <h1>Mern stack</h1>
               <p>هو الشخص الذي يعمل باربع تقنيات قوية مع بعضها</p>
-              <a href="/server" className="btn">
+              <a href="/servers" className="btn">
                 تفاصيل اكثر
               </a>
             </div>
@@ -62,7 +62,7 @@ const Home = () => {
           <div className="skills">
             <h2>المهارات</h2>
             <div className="Plotly-js">
-              <div className="html">
+              <div className="html ski-1">
                 <img src={html} alt="" className="icon-avter" />
                 <div className="plot-all-html">
                   <div className="plot-part-html">
@@ -74,7 +74,7 @@ const Home = () => {
 
               <hr />
 
-              <div className="css">
+              <div className="css ski-2">
                 <img src={css} alt="" className="icon-avter css-img" />
                 <div className="plot-all-css">
                   <div className="plot-part-css">
@@ -85,7 +85,7 @@ const Home = () => {
               </div>
               <hr />
 
-              <div className="tcss">
+              <div className="tcss ski-3">
                 <img src={tcss} alt="" className="icon-avter tcss-img" />
                 <div className="plot-all-tcss">
                   <div className="plot-part-tcss">
@@ -97,7 +97,7 @@ const Home = () => {
 
               <hr />
 
-              <div className="javascript">
+              <div className="javascript ski-4">
                 <img src={js} alt="" className="icon-avter javascript-img" />
                 <div className="plot-all-javascript">
                   <div className="plot-part-javascript">
@@ -108,7 +108,7 @@ const Home = () => {
               </div>
               <hr />
 
-              <div className="react">
+              <div className="react ski-5">
                 <img src={react} alt="" className="icon-avter react-img" />
                 <div className="plot-all-react">
                   <div className="plot-part-react">
@@ -120,7 +120,7 @@ const Home = () => {
 
               <hr />
 
-              <div className="express">
+              <div className="express ski-6">
                 <img src={express} alt="" className="icon-avter express-img" />
                 <div className="plot-all-express">
                   <div className="plot-part-express">

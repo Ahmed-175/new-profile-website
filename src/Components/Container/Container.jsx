@@ -4,10 +4,29 @@ import Home from '../../Pages/Home/Home';
 import About from '../../Pages/About/About';
 import './Container.css';
 import { FaGithub ,FaInstagram  ,FaFacebook ,FaLinkedin   } from "react-icons/fa";
+import { MdMenu } from "react-icons/md";
+import Servers from '../../Pages/Servers/Servers';
+import Profile from '../../Pages/Profile/Profile';
+let disbar = false
+const menubart =() => {
+
+  if(  disbar === false){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.left = "0";
+    disbar = true
+    const menu =document.querySelector('.menu');
+    menu.style.transform = 'rotate(-180deg)';
+    
+  }else{
+    const sidebar = document.querySelector('.sidebar');
+    const menu =document.querySelector('.menu');
+    sidebar.style.left = "-55%";
+    disbar = false;
+    menu.style.transform = 'rotate(180deg)';
+  }
 
 
-
-
+}
 
 const Container = () => {
   return (
@@ -24,6 +43,7 @@ const Container = () => {
           </ul>
     
         </nav>
+        <div className='menu' onClick={() => { menubart() }} > <MdMenu  className='menu-icon' /></div>
       </header>
 
 
@@ -31,6 +51,8 @@ const Container = () => {
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
+    <Route path="/servers" element={<Servers />} />
+    <Route path="/profile" element={<Profile />} />
   </Routes>
 </BrowserRouter>
 
