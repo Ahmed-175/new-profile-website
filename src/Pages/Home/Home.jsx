@@ -15,32 +15,32 @@ const Home = () => {
         <div className="left-jobs">
           <div className="all-jobs">
             <div className="content-jobs">
-              <h1>UI/UX deginer</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1>UI/UX مصمم</h1>
+              <p>و هو مجرد شكل مبدئي و تخيل كل جوانب الموقع</p>
               <a href="/server" className="btn">
-                View More
+                تفاصيل اكثر
               </a>
             </div>
 
             <div className="content-jobs">
-              <h1>Frontend</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1> مبرمج الواجهة الأمامية</h1>
+              <p>و هو الذي يقوم بتحويل الصورة من مجرد تصميم الي كود فعلي </p>
               <a href="/server" className="btn">
-                View More
+                تفاصيل أكثر
               </a>
             </div>
             <div className="content-jobs">
-              <h1>Backend</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1>مبرمج الواجهة الخلفية </h1>
+              <p>هو الشخص الذي يهتم بالخوادة و المعلومات التي يحتاجها مبرمج الواجهة الامامية</p>
               <a href="/server" className="btn">
-                View More
+                تفاصيل اكثر
               </a>
             </div>
             <div className="content-jobs">
               <h1>Mern stack</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>هو الشخص الذي يعمل باربع تقنيات قوية مع بعضها</p>
               <a href="/server" className="btn">
-                View More
+                تفاصيل اكثر
               </a>
             </div>
           </div>
@@ -51,16 +51,16 @@ const Home = () => {
             <div className="me">
               <img src={img} alt="image" className="img" />
               <div className="all-name">
-                <h2>Ahmed Mitwalli Farag</h2>
+                <h2>أحمد متولي فرج</h2>
                 <p>Full-Stack Developer</p>
               </div>
             </div>
             <a href="/profile" className="btn-profile">
-              profile
+              الملف الشخصي
             </a>
           </div>
           <div className="skills">
-            <h2>Skills</h2>
+            <h2>المهارات</h2>
             <div className="Plotly-js">
               <div className="html">
                 <img src={html} alt="" className="icon-avter" />

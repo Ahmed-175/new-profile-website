@@ -14,7 +14,7 @@ const Container = () => {
     <div className='container-all'>
 
       <header id='header'>
-        <a href="/" className="logo">Ahmed Farag</a>
+        <a href="/" className="logo">أحمد فرج</a>
         <nav>
           <ul>
             <li><a href="https://github.com/Ahmed-175?tab=repositories"  target='_black'><FaGithub /></a></li>

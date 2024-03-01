@@ -11,12 +11,12 @@ const Sidebar = () => {
   return (
     <div>
         <div className="sidebar">
-            <h1>Sidebar</h1>
+            <h1>أجراء الموقع</h1>
 
             <a href="/">
             <div className="Content-sidebar active">
             <FaHome className='icon-sidebar' />
-            <span>Home</span>
+            <span>الصفحة الرئسية</span>
             </div>
             </a>
 
@@ -25,16 +25,16 @@ const Sidebar = () => {
             <a href="/about">
             <div className="Content-sidebar">
             <IoIosInformationCircleOutline className='icon-sidebar' />
-            <span>About</span>
+            <span>معلومات عني</span>
             </div>
             </a>
             <div className="Content-sidebar">
             <FaServer className='icon-sidebar' />
-            <span>Servers</span>
+            <span>الخدمات المقدمة</span>
             </div>
             <div className="Content-sidebar">
             <ImProfile className='icon-sidebar' />
-            <span>Profile</span>
+            <span>المشريع الخاصة بي</span>
             </div>
         </div>
     </div>
