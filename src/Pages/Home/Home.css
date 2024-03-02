@@ -1,10 +1,11 @@
 .home-cont {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: auto;
+  margin-bottom: 4rem;
 }
 
 .home-cont .left-jobs {
